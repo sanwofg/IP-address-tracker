@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/IP-address-tracker/static/css/main.8ee09a50.css",
+    "main.js": "/IP-address-tracker/static/js/main.a23ea0df.js",
+    "static/media/pattern-bg-desktop.png": "/IP-address-tracker/static/media/pattern-bg-desktop.5013c4f570ecf757f855.png",
+    "static/media/pattern-bg-mobile.png": "/IP-address-tracker/static/media/pattern-bg-mobile.3666aa38dccbc0ebd679.png",
+    "static/media/logo.svg": "/IP-address-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/IP-address-tracker/index.html",
+    "static/media/icon-location.svg": "/IP-address-tracker/static/media/icon-location.7e6459d2a9278295ae782e100965be4b.svg",
+    "static/media/icon-arrow.svg": "/IP-address-tracker/static/media/icon-arrow.2eaaa5ee3602d5aa14a2dba69e9fb7a0.svg",
+    "main.8ee09a50.css.map": "/IP-address-tracker/static/css/main.8ee09a50.css.map",
+    "main.a23ea0df.js.map": "/IP-address-tracker/static/js/main.a23ea0df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ee09a50.css",
+    "static/js/main.a23ea0df.js"
+  ]
+}
