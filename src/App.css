@@ -1,38 +1,125 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  font-family: Rubik, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dive{
+  background-image: url(../public/images/pattern-bg-desktop.png);
+  min-height: 30vh;
+  margin-top: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text{
+  padding-top: 20px;
+  font-size: 30px;
+  font-stretch: expanded;
+  font-weight: 700;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.dive input{
+  width: 300px;
+  height: 44px;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dive input:active{
+  border: none;
+}
+.dive button{
+  border: none;
+  background-color: black;
+  padding:10px 15px;
+  border-top-right-radius:8px ;
+  border-bottom-right-radius: 8px;
+  transition: background-color 0.7s;
+}
+.dive button:hover{
+  opacity: 5;
+  background-color: grey
+}
+.dive button:active{
+  background-color: greenyellow;
+}
+.infos{
+  min-height: 20vh;
+  max-width: 60%;
+  /* border: solid 2px red; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* margin-top: -12vh; */
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 700;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+.details{
+  opacity: 0.7;
+  font-size: 12px!important;
+  text-align: start;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+.separator{
+  border-right: solid 1px black;
+  min-width: 25%;
+}
+.separator2{
+  min-width: 25%;
+  max-height: 15vh;
+}
+.display{
+  font-size: 17px;
+  font-weight: 800;
+  text-align: start;
+  padding-left: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.map{
+  min-height: 62.5vh;
+  /* background-color: brown; */
+ 
+}
+.map2{
+  height: 500px;
+  width: 100%;
+}
+@media(max-width:767px){
+ .dive{
+   background-image: url(../public/images/pattern-bg-mobile.png);
+   background-size: cover;
+ } 
+ .infos{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-bottom: -19vh;
+  
+ }
+ .separator{
+  border: none;
+  text-align: center;
+ }
+ .separator p{
+  text-align: center;
+ }
+ .separator2 p{
+  text-align: center;
+ }
+ .separator2{
+  text-align: center;
+ }
+ .dive input{
+  width: 250px;
+  height: 44px;
+  outline: none;
+}
 }
